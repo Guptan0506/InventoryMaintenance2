@@ -30,16 +30,9 @@
     </Item>
     <Item>
         <Type>Plant</Type>
-        <ItemNo>0</ItemNo>
-        <Description />
-        <Price>0</Price>
-        <Size />
-    </Item>
-    <Item>
-        <Type>Supply</Type>
-        <ItemNo>0</ItemNo>
-        <Description />
-        <Price>0</Price>
-        <Manufacturer />
+        <ItemNo>353646</ItemNo>
+        <Description>bdsbinb</Description>
+        <Price>325</Price>
+        <Size>5 gallon</Size>
     </Item>
 </Items>

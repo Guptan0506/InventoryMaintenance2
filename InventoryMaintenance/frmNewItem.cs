@@ -52,10 +52,10 @@ namespace InventoryMaintenance
                 // Here you should create a new item of the appropriate type using the data entered by the user (use the invItem as the item variable)
                 if(rdoPlant.Checked)
                 {
-                    invItem = new Plant();
+                    invItem = new Plant(Convert.ToInt32(txtItemNo.Text), txtDescription.Text, Convert.ToDecimal(txtPrice.Text), cboSizeOrManufacturer.Text);
                 } else
                 {
-                    invItem = new Supply();
+                    invItem = new Supply(Convert.ToInt32(txtItemNo.Text), txtDescription.Text, Convert.ToDecimal(txtPrice.Text), cboSizeOrManufacturer.Text);
                 }
 
                 this.Close();
