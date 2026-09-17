@@ -10,12 +10,14 @@ namespace InventoryMaintenance
     {
         public string Manufacturer { get; set; }
         public Supply() { }
-
+        
+        // Navya Gupta
         public Supply(int itemNo, string desc, decimal price, string manufacturer) : base(itemNo, desc, price)
         {
             Manufacturer = manufacturer;
         }
 
+        // Navya Gupta
         public override string GetDisplayText()
         {
             return $"{ItemNo} {Manufacturer} {Description} ({Price})";
