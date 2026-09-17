@@ -49,7 +49,15 @@ namespace InventoryMaintenance
         {
             if (IsValidData())
             {
-                //Here you should create a new item of the appropriate type using the data entered by the user (use the invItem as the item variable)
+                // Here you should create a new item of the appropriate type using the data entered by the user (use the invItem as the item variable)
+                if(rdoPlant.Checked)
+                {
+                    invItem = new Plant();
+                } else
+                {
+                    invItem = new Supply();
+                }
+
                 this.Close();
             }
         }

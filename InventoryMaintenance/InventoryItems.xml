@@ -28,4 +28,18 @@
         <Price>89.95</Price>
         <Size>15 gallon</Size>
     </Item>
+    <Item>
+        <Type>Plant</Type>
+        <ItemNo>0</ItemNo>
+        <Description />
+        <Price>0</Price>
+        <Size />
+    </Item>
+    <Item>
+        <Type>Supply</Type>
+        <ItemNo>0</ItemNo>
+        <Description />
+        <Price>0</Price>
+        <Manufacturer />
+    </Item>
 </Items>
